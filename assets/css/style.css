@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    background-image:url("/assets/pexels-jess-bailey-designs-1097930.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Ubuntu";
+  }
+
+
+.content{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+
+h1{
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+.btn{
+    padding: 14px 24px;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: #337AFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+  
+.btn:hover{
+    background-color: #f6dfeb;
+    color: #433d3c;
+}
+
+.btn-tutorial{
+    padding: 14px 24px;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #337AFF;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-tutorial:hover{
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.form-unggah{
+    margin-top: 20px;
+}
+
+.btn-unggah{
+    padding: 5px 20px;
+}
+
+.content-judul{
+    top: 15%;
+}
+
+.judul{
+    font-size: 40px;
+    margin-top: 0;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+.var-ubah{
+    font-size: 30px;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.btn-mulai{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.nobullet{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-row {
+    width: 70%;
+    margin: 80px auto 50px auto;
+    text-align: left;
+}
+
+.copyright{
+    text-align: right;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+video {
+    padding-top: 20px;
+    width: 80%;
+    height: auto;
+}
+

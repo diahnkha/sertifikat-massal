@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+    background-image:url("/assets/pexels-jess-bailey-designs-1097930.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.judul-tutorial{
+    background-color: black;
+    color: #fff;
+}
+
+.text-tutorial{
+    color: #fff;
+    font-size: xx-large;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+h3{
+    text-align: center;
+    color: chartreuse;
+}
+
+.gambar-tutorial{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: cyan;
+}
+
+.content{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+
+h1{
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+p{
+    padding-bottom: 30px;
+}
+
+
+
+.skill-row {
+    width: 70%;
+    padding-top: 30px;
+    margin: 20px auto 20px auto;
+    text-align: left;
+}
+
+.skill-row p{
+margin-top: 0;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+.line-tutorial-atas{
+    overflow: visible; /* For IE */
+    height: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.line-tutorial-bawah{
+    display: block;
+    content: "";
+    height: 10px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.container{
+
+    padding-top: 5%;
+    background-color: rgba(0, 0, 0, 0.4);
+    /*background-color: rgba(255, 116, 135, 0.4);*/
+
+    /*background-color: rgba(230, 230, 250, 0.4);
+    */
+    text-align: center;
+    
+}
+
+.lebarpng{
+    width: 80%;
+}

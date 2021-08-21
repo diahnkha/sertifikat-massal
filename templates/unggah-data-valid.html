@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unggah Data</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<div class="bg">
+    <div class="content">
+        <div>
+            {{flash}}
+        </div>
+        <h1>Unggah Data</h1>
+        <form class="form-unggah" action="/suksesvalid" method="POST" enctype="multipart/form-data" ><!--/uploadexcelsuccess-->
+            <input type="file" name="ExcelFile" accept=".xls">
+            <input class="btn btn-unggah" type="submit" value="Unggah file .XLS">
+        </form>
+
+        <div>
+            <form action="/lihatdata" method="POST">
+                <input 
+                style=
+                "position: fixed; 
+                top: 0;
+                right: 5px;
+                height: 5px;
+                width: 5px;" class="btn btn-unggah" type="submit" >
+                <br>
+            </form>
+        </div>
+
+    </div>
+</div>
+<p class="copyright pluss">© Dirilis 2021</p>
+</body>
+</html>

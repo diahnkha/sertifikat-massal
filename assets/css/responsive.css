@@ -1,0 +1,84 @@
+/* If the screen size is 1000px or more*/
+@media all and (min-width: 1000px){
+
+  .inputukhp{
+    width: 300px;
+  }
+  
+  .ukb{
+    font-size: medium;
+  }
+
+}
+
+
+/*  If the screen size is 670px or less */
+@media all and (max-width: 670px) {
+
+  h1{
+    font-size: 8vw;
+  }
+
+  p{
+    font-size: 3vw;
+  }
+  
+  /*setelah ini pokoknya*/
+
+  .btn{
+    font-size: 3.5vw;
+    padding: 10px;
+  }
+
+  .content{
+    width: 70%;
+    padding-left: 60px;
+  }
+
+  .judulukhp{
+    font-size: 30px;
+  }
+
+  .var-ubah{
+    font-size: 20px;
+  }
+
+  .btn-tutorial{
+    padding: 7px 10px;
+    font-size: 14px;
+  }
+
+  .kotak{
+    font-size: small;
+  }
+
+  h3{
+    font-size: medium;
+    margin: 0 auto;
+  }
+
+  h2{
+    margin-bottom: 0px;
+  }
+
+  .skill-row{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .line-tutorial-atas{
+    margin: 10px auto;
+  }
+
+  .line-tutorial-bawah{
+    margin: 10px auto;
+  }
+
+  .skill-row p{
+    font-size: initial;
+  }
+}
+
+.judulf{
+  font-size: 12px;
+}

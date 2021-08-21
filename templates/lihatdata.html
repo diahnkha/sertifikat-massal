@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unduh Data</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/buat-tabel.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+<div class="bg">
+    <div class="content" style="top: 10%;" >
+        <h1 class="judul">Daftar Data Valid</h1>
+        <br>
+        <div>Jumlah Data : {{flash}}</div>
+        <br>
+        <br>
+        <div style="overflow-x:auto; margin-right:25px; margin-left: 25px;">
+            <table class="kotak">
+                <thead>
+                <tr>
+                 <th>No</th>
+                 <th>id</th>
+                 <th>Nama</th>
+                 <th>Lembaga</th>
+                 <th>Bukti</th>
+                 <th>Keterangan</th>
+                </tr>
+                </thead>
+                <tbody>
+                 {% for row in value %}
+                  <tr>
+                   <td>{{row[0]}}</td>
+                   <td>{{row[1]}}</td>
+                   <td>{{row[2]}}</td>
+                   <td>{{row[3]}}</td>
+                   <td>{{row[4]}}</td>
+                   <td>{{row[5]}}</td>
+                  </tr>
+                 {% endfor %}
+                </tbody>
+               </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        
+    </div>
+</div>
+
+<p class="copyright">© Dirilis 2021</p>
+
+{% extends 'aman.html' %}
+
+</body>
+</html>
